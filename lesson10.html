@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{margin:0px;}
+
+        .big-box {
+            width:250px;
+            height:150px;
+            background-color: lightgray;
+        }
+        .box1, .box2 {
+            display:inline-block
+        }
+        .nested-cat {
+            height:100px;
+            width:100px;
+            border-radius: 50%;
+            object-fit:cover;
+            margin:20px 10px 40px
+            
+        }
+        .para2, .para3 {
+            margin-top:3px;
+            width:100%;
+            font-family: sans-serif;
+            color: darkgray;
+        }
+        .box1 {
+            vertical-align: middle;
+        }
+        .para1 {
+            margin-top:30px;
+            font-weight: bold;
+            font-family: sans-serif;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="big-box">
+        <div class="box1">
+            <img class="nested-cat" src="thumbnails/images.jpeg">
+        </div>
+        <div class="box2">
+            <div >
+                <p class="para1">
+                    Oliver
+                </p>
+            </div>
+            <div >
+                <p class="para2">
+                    The Cat
+                </p>
+            </div>
+            <div >
+                <p class="para3">
+                    Popular
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
